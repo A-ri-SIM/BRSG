@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>바른생각</title>
+    <link rel="icon" type="image/x-icon" href="./img/BRSG_logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./css/aos.css"> -->
+    <link rel="stylesheet" href="./css/cdn.jsdelivr.net_npm_swiper@9_swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/mo.css">
+    <script src="./script/jquery-3.6.4.js"></script>
+    <script src="./script/jquery-ui.js"></script>
+    <script src="./script/aos.js"></script>
+    <script src="./script/index.js"></script>
+    
+</head>
+<body>
+    <!-- 로딩 -->
+    <div class="loding">
+        <div class="loding_move_box">
+            <img class="loding_img" src="./img/loding.png" alt="">
+            <img class="loding_img loding_mo" src="./img/loding.png" alt="">
+            <img class="loding_img loding_mo" src="./img/loding.png" alt="">
+        </div>
+        <div class="loding_box">
+            <div  class="bar animate__animated animate__bounceInDown"><img src="./img/bar.png" alt=""></div>
+            <div class="ren animate__animated animate__bounceInDown"><img src="./img/ren.png" alt=""></div>
+            <div class="sang animate__animated animate__bounceInDown"><img src="./img/sang.png" alt=""></div>
+            <div class="gack animate__animated animate__bounceInDown"><img src="./img/gack.png" alt=""></div>
+        </div>
+        <div class="click_but animate__animated animate__flash animate__infinite">click!</div>
+        <div class="click_img"><img src="./img/click_but.gif" alt=""></div>
+    </div>
+    
+    <!-- 메인 -->
+    <section class="main_wrap">
+        <div class="header_wrap">
+            <a href="#" class="logo">
+                <img src="./img/main_logo.png" alt="logo">
+            </a>
+            <div class="search">
+                <input type="text">
+            </div>
+            <div class='toggle'>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            <div class="menu_box">
+                <a href="https://brsg.co.kr/about" class="menu">Brand</a>
+                <a href="https://brsg.co.kr/shophome" class="menu">Store</a>
+                <a href="https://c.brsg.co.kr/blogs/" class="menu">Contents</a>
+                <a href="https://c.brsg.co.kr/community/" class="menu">Communuty</a>
+            </div>
+        </div>
+        <div class="main_banner"> 
+            <!-- <div class="main_move_box">
+                <a href="https://brsg.co.kr/shop/859" class="img_box"><img src="./img/slide_1.jpg" alt=""></a>
+                <a href="#" class="img_box"><img src="./img/slide_2.png" alt=""></a>
+                <a href="https://brsg.co.kr/event/442" class="img_box"><img src="./img/slide_3.jpg" alt=""></a>
+                <a href="https://brsg.co.kr/joinevent" class="img_box"><img src="./img/slide_4.jpg" alt=""></a>
+                <a href="https://brsg.co.kr/report2023-chapter2" class="img_box"><img src="./img/slide_5.jpg" alt=""></a>
+            </div> -->
+            <!-- <div class="main_move_box_mo">
+                <a href="https://brsg.co.kr/shop/859" class="img_box_mo"><img src="./img/mo/slide_mo_1.png" alt=""></a>
+                <a href="#" class="img_box_mo"><img src="./img/mo/slide_mo_2.png" alt=""></a>
+                <a href="https://brsg.co.kr/event/442" class="img_box_mo"><img src="./img/mo/slide_mo_3.png" alt=""></a>
+                <a href="https://brsg.co.kr/joinevent" class="img_box_mo"><img src="./img/mo/slide_mo_4.png" alt=""></a>
+                <a href="https://brsg.co.kr/report2023-chapter2" class="img_box_mo"><img src="./img/mo/slide_mo_5.png" alt=""></a>
+            </div> -->
+            <div class="swiper mySwiper main_move_box">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a href="https://brsg.co.kr/shop/859"><img src="./img/slide_1.jpg" alt=""></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="./img/slide_2.png" alt=""></a></div>
+                  <div class="swiper-slide"> <a href="https://brsg.co.kr/event/442"><img src="./img/slide_3.jpg" alt=""></a></div>
+                  <div class="swiper-slide"><a href="https://brsg.co.kr/joinevent"><img src="./img/slide_4.jpg" alt=""></a></div>
+                  <div class="swiper-slide"><a href="https://brsg.co.kr/report2023-chapter2"><img src="./img/slide_5.jpg" alt=""></a></div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div> 
+              <div class="swiper mySwiper main_move_box_mo">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a href="https://brsg.co.kr/shop/859"><img src="./img/mo/slide_mo_1.png" alt=""></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="./img/mo/slide_mo_2.png" alt=""></a></div>
+                  <div class="swiper-slide"> <a href="https://brsg.co.kr/event/442"><img src="./img/mo/slide_mo_3.png" alt=""></a></div>
+                  <div class="swiper-slide"><a href="https://brsg.co.kr/joinevent"><img src="./img/mo/slide_mo_4.png" alt=""></a></div>
+                  <div class="swiper-slide"><a href="https://brsg.co.kr/report2023-chapter2"><img src="./img/mo/slide_mo_5.png" alt=""></a></div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div> 
+            <!-- <div class="but_box">
+                <div class="but on"></div>
+                <div class="but"></div>
+                <div class="but"></div>
+                <div class="but"></div>
+                <div class="but"></div>
+            </div> -->
+        </div>
+    </section>
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 1000,
+      centeredSlides: true,
+      autoplay: {
+        delay: 12000,
+        disableOnInteraction: false
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      }
+    });
+  </script>
+    <!-- 베스트 -->
+    <section class="best_wrap">
+        <div class="best_wrap_bg"><img data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="5000" src="./img/best_bg.png" alt=""></div>
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+        data-aos-duration="3000" class="best_title">Best<br>Product</div>
+        <div data-aos="fade-up"data-aos-duration="1500" class="best_mask">
+            <div class="best_move_box">
+                <a href="https://brsg.co.kr/shop/580" class="best_box">
+                    <div class="best_img">
+                        <img src="./img/best_1.jpg" alt="">
+                    </div>
+                    <div class="best_text">
+                        <div class="best_bransd">바른생각</div>
+                        <div class="best_name">퍼펙트핏 12P 1+1 세트</div>
+                        <div class="best_price">23,200원</div>
+                    </div>
+                </a>
+                <a href="https://brsg.co.kr/shop/407" class="best_box">
+                    <div class="best_img">
+                       <img src="./img/best_2.jpg" alt=""> 
+                    </div>
+                    <div class="best_text">
+                        <div class="best_bransd">바른생각</div>
+                        <div class="best_name">워터리 핑거핏 20P</div>
+                        <div class="best_price">13,900원</div>
+                    </div>
+                </a>
+                <a href="https://brsg.co.kr/shop/349" class="best_box">
+                    <div class="best_img">
+                        <img src="./img/best_3.jpg" alt=""> 
+                    </div>
+                    <div class="best_text">
+                        <div class="best_bransd">바른생각</div>
+                        <div class="best_name">배-따순생각 (5P)</div>
+                        <div class="best_price">4,900원</div>
+                    </div>
+                </a>
+                <a href="https://brsg.co.kr/shop/428" class="best_box">
+                    <div class="best_img">
+                        <img src="./img/best_4.jpg" alt=""> 
+                    </div>
+                    <div class="best_text">
+                        <div class="best_bransd">바른생각</div>
+                        <div class="best_name">눈-편한생각 (5P)</div>
+                        <div class="best_price">5,500원</div>
+                    </div>
+                </a>
+                <a href="https://brsg.co.kr/shop/706" class="best_box">
+                    <div class="best_img">
+                        <img src="./img/best_5.jpg" alt=""> 
+                    </div>
+                    <div class="best_text">
+                        <div class="best_bransd">리얼맨</div>
+                        <div class="best_name">롱타임 킵클린 포맨 스프레이 20ml</div>
+                        <div class="best_price">11,900원</div>
+                    </div>
+                </a>
+                <a href="https://brsg.co.kr/shop/126" class="best_box">
+                    <div class="best_img">
+                        <img src="./img/best_6.jpg" alt=""> 
+                    </div>
+                    <div class="best_text">
+                        <div class="best_bransd">바른생각</div>
+                        <div class="best_name">젤 스탠다드 (150ml)</div>
+                        <div class="best_price">11,900원</div>
+                    </div>
+                </a>
+                <a href="https://brsg.co.kr/shop/127" class="best_box">
+                    <div class="best_img">
+                        <img src="./img/best_7.jpg" alt=""> 
+                    </div>
+                    <div class="best_text">
+                        <div class="best_bransd">바른생각</div>
+                        <div class="best_name">젤 내추럴 수딩 (150ml)</div>
+                        <div class="best_price">14,900원</div>
+                    </div>
+                </a>
+                <a href="https://brsg.co.kr/shop/128" class="best_box">
+                    <div class="best_img">
+                        <img src="./img/best_8.jpg" alt=""> 
+                    </div>
+                    <div class="best_text">
+                        <div class="best_bransd">바른생각</div>
+                        <div class="best_name">젤 엑스트라 케어 (150ml)</div>
+                        <div class="best_price">14,900원</div>
+                    </div>
+                </a>
+                <a href="https://brsg.co.kr/shop/863" class="best_box">
+                    <div class="best_img">
+                        <img src="./img/best_9.jpg" alt=""> 
+                    </div>
+                    <div class="best_text">
+                        <div class="best_bransd">새티스파이어</div>
+                        <div class="best_name">미니완드 블루</div>
+                        <div class="best_price">82,500원</div>
+                    </div>
+                </a>
+                <a href="https://brsg.co.kr/shop/835" class="best_box">
+                    <div class="best_img">
+                        <img src="./img/best_10.jpg" alt=""> 
+                    </div>
+                    <div class="best_text">
+                        <div class="best_bransd">새티스파이어</div>
+                        <div class="best_name">엘라스틱 조이 레드</div>
+                        <div class="best_price">80,590원</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <a href="https://brsg.co.kr/group/140" class="best_more">더보기 ></a>
+    </section>
+    <script>
+        AOS.init();
+    </script>
+    <!-- 카테고리 -->
+    <section class="ctg_wrap">
+        <div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500" class="ctg_bg ctg_width">
+            <img  src="./img/category_bg.png" alt=""></div>
+        <div data-aos="zoom-out" data-aos-duration="1500" class="ctg_title ctg_width">Category</div>
+        <div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500" class="ctg_icon_box_1 ctg_width">
+            <a href="https://brsg.co.kr/shop/category/1" class="ctg_icon">
+                <img src="./img/category/brsg.svg" alt="">
+            </a>
+            <a href="https://brsg.co.kr/shop/category/2" class="ctg_icon">
+                <img src="./img/category/drsg.svg" alt="">
+            </a>
+            <a href="https://brsg.co.kr/shop/category/9" class="ctg_icon">
+                <img src="./img/category/condom.svg" alt="">
+            </a>
+            <a href="https://brsg.co.kr/shop/category/7" class="ctg_icon">
+                <img src="./img/category/gel.svg" alt="">
+            </a>
+        </div>
+        <div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"  class="ctg_icon_box_2 ctg_width">
+            <a href="https://brsg.co.kr/shop/category/10" class="ctg_icon">
+                <img src="./img/category/toy.svg" alt="">
+            </a>
+            <a href="https://brsg.co.kr/shop/category/8" class="ctg_icon">
+                <img src="./img/category/favor.svg" alt="">
+            </a>
+            <a href="https://brsg.co.kr/shop/category/6" class="ctg_icon">
+                <img src="./img/category/tool.svg" alt="">
+            </a>
+            <a href="https://brsg.co.kr/shop/category/5" class="ctg_icon">
+                <img src="./img/category/health.svg" alt="">
+            </a>
+        </div>
+        <div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500" class="ctg_icon_box_3 ctg_width">
+            <a href="https://brsg.co.kr/shop/category/3" class="ctg_icon">
+                <img src="./img/category/date.svg" alt="">
+            </a>
+            <a href="https://brsg.co.kr/shop/category/4" class="ctg_icon">
+                <img src="./img/category/life.svg" alt="">
+            </a>
+            <a href="https://brsg.co.kr/shop/category/11" class="ctg_icon">
+                <img src="./img/category/set.svg" alt="">
+            </a>
+        </div>
+    </section>
+    <!-- 기획전 -->
+    <section class="ebt_wrap">
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" data-aos-duration="3500" class="ebt_bg">
+            <img src="./img/ebt_bg.png" alt=""></div>
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" data-aos-duration="3500" class="ebt_title">BRSG<br>Exhibitions</div>
+        <a data-aos="fade-up" data-aos-duration="2000" href="https://brsg.co.kr/project/monthly/11" class="ebt_box_01">
+           <div class="ebt_01_text">
+            <span>젤로 촉촉해</span><br>
+                중요한건 꺾이지 않는 지속력!
+            
+           </div> 
+        </a>
+        <a data-aos="fade-up" data-aos-duration="2000" href="https://brsg.co.kr/project/monthly/12" class="ebt_box_02">
+            <div class="ebt_text">
+                <span>핑거핏 모여라</span><br>
+            섬세하고 안전하게 사랑을 표현하세요
+            </div> 
+        </a>
+        <a data-aos="fade-up" data-aos-duration="2000" href="https://brsg.co.kr/project/namdarun/10" class="ebt_box_03">
+            <div class="ebt_text">
+                <span>청결! 뽀송! 산뜻!</span><br>
+                런칭특가 1+1에 바디워시바 무료 증정까지!
+            </div> 
+        </a>
+        <a href="https://brsg.co.kr/project" class="ebt_more">더보기 ></a>
+    </section>
+    <!-- 리뷰 -->
+    <section class="rev_wrap">
+        <div class="rev_r">
+            <img data-aos="fade-right" data-aos-duration="3000" src="./img/review_bg.png" alt=""></div>
+        <div data-aos="fade-right" data-aos-duration="3000" class="rev_title">eview</div>
+        <div data-aos="fade-left" data-aos-duration="2000" class="rev_bg"></div>
+        <div data-aos="fade-left" data-aos-duration="3000" class="rev_mask">
+            <div class="rev_move_box">
+                <a href="https://brsg.co.kr/shop/316" class="rev_img_box img_size">
+                    <img src="./img/re_1.jpg" alt="">
+                    <div class="rev_text">
+                        [블락] 음모털 길이와 숱 ...<br>
+                        트리머 여러 브랜드 사용해봤는데, 제일 만족도가 높아요! 적당하게 정리되는 게 자신있게 반바지 입을 수 있어서 행복합니다~!
+                    </div>
+                </a>
+                <a href="https://brsg.co.kr/shop/725" class="rev_img_box">
+                    <img src="./img/re_2.jpeg" alt="">
+                    <div class="rev_text">
+                        [푸푸리] 대변냄새 완벽 제거 오...<br>
+                        마법같이 좋은 냄새가 폴폴!!
+                        학원 다닐 때 줄 서서 화장실 가는 데 냄새가 
+                        신경 쓰야서 구매 했는데 진짜 좋아여ㅜ
+                        담에 큰 용량도 사고 싶어요
+                    </div>
+                </a>
+                <a href="https://brsg.co.kr/shop/814" class="rev_img_box img_size">
+                    <img src="./img/re_3.jpg" alt="">
+                    <div class="rev_text">
+                        [바른생각] 슈퍼 쿨 워시 포...<br>
+                        예전에 쓰던거보다 훨씬 시원하고 느낌 좋네요 ㅎㅎ 잘쓸게요
+                    </div>
+                </a>
+                <a href="https://brsg.co.kr/shop/670" class="rev_img_box">
+                    <img src="./img/re_4.jpg" alt="">
+                    <div class="rev_text">
+                        [리퀴덴트] 맵지 않은 무알...<br>
+                        입이 마르고 텁텁할 때 뿌려주니까 좋네요 ~
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+    <!-- 푸터 -->
+    <footer>
+        <div class="footer_box">
+            <span>(주) 컨비니언스</span><br><br>
+            대표자: 박경진<br>
+            서울시 마포구 잔다리로 39<br>
+            사업자번호: 120-88-03444<br>
+            통신판매업신고: 2016-서울마포-1807<br>
+            개인정보처리관리자: 안성식<br>
+            제품 공급 문의 : sales@cvkorea.co.kr / 제품 제휴, 협찬: marketing@cvkorea.co.kr<br><br>
+            <div>이용약관 | 개인정보 처리 방침</div>
+        </div>
+        <div class="center">
+            <span>고객센터</span><br>
+            <p>02-2088-7158</p><br><br>
+            평일 10:00 ~ 17:00 (점심시간 11:30 ~ 13:00)<br>
+            이메일 ask@cvkorea.co.kr
+        </div>
+        <div class="copyright">
+            ㈜컨비니언스(바른생각)는 통신판매중개자이며, 통신판매의 거래 당사자가 아니므로, 판매자가 등록한 상품정보 및 거래 등에 대해 일체 책임을 지지 않습니다.<br>
+            단 ㈜컨비니언스가 판매자로 등록 판매한 상품의 경우는 판매자로서 책임을 부담합니다.<br><br>
+            <span>© CONVENIENCE CORP. ALL RIGHTS RESERVED</span>
+        </div>
+        <div class="top_but_wrap">
+            <div class="top_but">TOP</div>
+        </div>
+        
+    </footer>
+</body>
+<script>
+    AOS.init();
+</script>
+</html>
